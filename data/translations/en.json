@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "About",
+    "about": "About Us",
+    "products": "Products",
+    "partners": "Partners",
+    "contact": "Contact Us"
+  },
+  "common": {
+    "tagline": "Enterprise solutions for the modern business",
+    "copyright": "© 2026 Software Store. All rights reserved."
+  },
+  "home": {
+    "title": "Software Store",
+    "aboutTitle": "About Us",
+    "aboutText1": "Software Store is a leading provider of enterprise software solutions designed to help businesses streamline operations, enhance security, and gain actionable insights from their data.",
+    "aboutText2": "Founded in 2015, we have been committed to delivering innovative, reliable, and user-friendly software products to organizations worldwide.",
+    "missionTitle": "Our Mission",
+    "missionText": "We empower organizations to achieve digital transformation through intelligent, accessible, and secure software solutions. Our mission is to make enterprise software approachable for businesses of all sizes.",
+    "historyTitle": "Our History",
+    "historyText1": "Software Store began with a simple vision: create software that solves real business problems without unnecessary complexity. Over the years, we have grown from a small startup to a trusted partner for hundreds of enterprises globally.",
+    "historyText2": "Our commitment to innovation, customer success, and continuous improvement has made us a leader in the software solutions industry."
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "Enterprise solutions to drive your business forward",
+    "searchPlaceholder": "Search products by name...",
+    "noResults": "No products found",
+    "noResultsText": "Try searching with different keywords."
+  },
+  "partners": {
+    "title": "Our Partners",
+    "subtitle": "Strategic collaborators powering global innovation",
+    "description": "We work with industry-leading organizations to deliver comprehensive solutions and exceptional value to our customers.",
+    "noPartners": "No partners available",
+    "noPartnersText": "Check back soon for partnership information."
+  },
+  "form": {
+    "nameLabel": "Your Name",
+    "namePlaceholder": "John Doe",
+    "nameRequired": "Name is required",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "john@example.com",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Please enter a valid email address",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "What is this about?",
+    "subjectRequired": "Subject is required",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell us more...",
+    "messageRequired": "Message is required",
+    "submitButton": "Send Message",
+    "loadingMessage": "Sending your message...",
+    "successMessage": "Thank you! Your message has been sent successfully.",
+    "errorMessage": "Failed to send message. Please try again."
+  },
+  "contact": {
+    "pageTitle": "Contact Us",
+    "pageDescription": "We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+    "formHeading": "Send us a Message",
+    "infoHeading": "Contact Information",
+    "addressLabel": "Address",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "businessHoursLabel": "Business Hours"
+  }
+}

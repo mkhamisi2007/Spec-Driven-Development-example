@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": "prod-001",
+      "name": "CloudSync Pro",
+      "description": "Real-time data synchronization across cloud platforms with enterprise-grade security and compliance",
+      "category": "Integration",
+      "pricing": "$299/month"
+    },
+    {
+      "id": "prod-002",
+      "name": "SecureVault",
+      "description": "Enterprise-grade encryption and secure credential storage for sensitive data and API keys",
+      "category": "Security",
+      "pricing": "$199/month"
+    },
+    {
+      "id": "prod-003",
+      "name": "Analytics Dashboard",
+      "description": "Comprehensive analytics and reporting for business intelligence and data visualization",
+      "category": "Analytics",
+      "pricing": "$149–499/month"
+    },
+    {
+      "id": "prod-004",
+      "name": "APIGateway",
+      "description": "Central API management with rate limiting, monitoring, and comprehensive analytics",
+      "category": "Infrastructure",
+      "pricing": "Custom pricing"
+    },
+    {
+      "id": "prod-005",
+      "name": "WorkflowAutomation",
+      "description": "Low-code workflow automation for business processes and operational efficiency",
+      "category": "Automation",
+      "pricing": "$99–299/month"
+    },
+    {
+      "id": "prod-006",
+      "name": "DataConnector",
+      "description": "Universal data connector supporting 100+ sources with real-time streaming and batch ingestion",
+      "category": "Integration",
+      "pricing": "$199–599/month"
+    },
+    {
+      "id": "prod-007",
+      "name": "ComplianceMonitor",
+      "description": "Regulatory compliance monitoring and reporting for GDPR, HIPAA, and industry standards",
+      "category": "Security",
+      "pricing": "$399/month"
+    },
+    {
+      "id": "prod-008",
+      "name": "PerformanceOptimizer",
+      "description": "Application performance monitoring and optimization with AI-powered recommendations",
+      "category": "Analytics",
+      "pricing": "$249/month"
+    }
+  ]
+}

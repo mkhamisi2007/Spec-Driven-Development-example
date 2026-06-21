@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "À propos",
+    "about": "À propos de nous",
+    "products": "Produits",
+    "partners": "Partenaires",
+    "contact": "Nous contacter"
+  },
+  "common": {
+    "tagline": "Des solutions d'entreprise pour l'entreprise moderne",
+    "copyright": "© 2026 Software Store. Tous droits réservés."
+  },
+  "home": {
+    "title": "Software Store",
+    "aboutTitle": "À propos de nous",
+    "aboutText1": "Software Store est un fournisseur leader de solutions logicielles d'entreprise conçues pour aider les entreprises à rationaliser les opérations, améliorer la sécurité et obtenir des insights exploitables à partir de leurs données.",
+    "aboutText2": "Fondée en 2015, nous nous sommes engagés à fournir des produits logiciels innovants, fiables et conviviaux aux organisations du monde entier.",
+    "missionTitle": "Notre Mission",
+    "missionText": "Nous autonomisons les organisations pour réaliser la transformation numérique grâce à des solutions logicielles intelligentes, accessibles et sécurisées. Notre mission est de rendre les logiciels d'entreprise abordables pour les entreprises de toutes tailles.",
+    "historyTitle": "Notre Histoire",
+    "historyText1": "Software Store a commencé avec une vision simple : créer des logiciels qui résolvent de vrais problèmes commerciaux sans complexité inutile. Au fil des ans, nous avons grandi d'une petite startup à un partenaire de confiance pour des centaines d'entreprises mondiales.",
+    "historyText2": "Notre engagement envers l'innovation, le succès des clients et l'amélioration continue nous a établis comme leader dans l'industrie des solutions logicielles."
+  },
+  "products": {
+    "title": "Nos Produits",
+    "subtitle": "Solutions d'entreprise pour dynamiser votre activité",
+    "searchPlaceholder": "Rechercher des produits par nom...",
+    "noResults": "Aucun produit trouvé",
+    "noResultsText": "Essayez de rechercher avec des mots-clés différents."
+  },
+  "partners": {
+    "title": "Nos Partenaires",
+    "subtitle": "Collaborateurs stratégiques alimentant l'innovation mondiale",
+    "description": "Nous travaillons avec des organisations leaders du secteur pour offrir des solutions complètes et une valeur exceptionnelle à nos clients.",
+    "noPartners": "Aucun partenaire disponible",
+    "noPartnersText": "Veuillez revenir bientôt pour les informations sur les partenariats."
+  },
+  "form": {
+    "nameLabel": "Votre nom",
+    "namePlaceholder": "Jean Dupont",
+    "nameRequired": "Le nom est requis",
+    "emailLabel": "Adresse e-mail",
+    "emailPlaceholder": "jean@exemple.com",
+    "emailRequired": "L'e-mail est requis",
+    "emailInvalid": "Veuillez entrer une adresse e-mail valide",
+    "subjectLabel": "Sujet",
+    "subjectPlaceholder": "De quoi s'agit-il?",
+    "subjectRequired": "Le sujet est requis",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Dites-nous plus...",
+    "messageRequired": "Le message est requis",
+    "submitButton": "Envoyer le message",
+    "loadingMessage": "Envoi de votre message...",
+    "successMessage": "Merci! Votre message a été envoyé avec succès.",
+    "errorMessage": "Échec de l'envoi du message. Veuillez réessayer."
+  },
+  "contact": {
+    "pageTitle": "Nous contacter",
+    "pageDescription": "Nous aimerions avoir de vos nouvelles. Envoyez-nous un message et nous répondrons dès que possible.",
+    "formHeading": "Envoyez-nous un message",
+    "infoHeading": "Coordonnées",
+    "addressLabel": "Adresse",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Téléphone",
+    "businessHoursLabel": "Heures d'ouverture"
+  }
+}

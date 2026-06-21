@@ -1,0 +1,53 @@
+# Build and output
+dist/
+build/
+.next/
+*.min.js
+*.min.css
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
+package-lock.json
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+*.sublime-project
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# Temporary
+*.tmp
+*.temp
+*.log
+.cache/
+
+# IDE-specific
+.classpath
+.project
+.settings/
+.c9/
+*.iml
+.vscode-test
+coverage/

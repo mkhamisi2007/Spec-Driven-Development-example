@@ -1,0 +1,34 @@
+{
+  "partners": [
+    {
+      "id": "partner-001",
+      "name": "Acme Solutions",
+      "logo": "images/partners/acme-logo.svg",
+      "description": "Leading enterprise integration and API management platform"
+    },
+    {
+      "id": "partner-002",
+      "name": "SecureCloud Inc",
+      "logo": "images/partners/securecloud-logo.svg",
+      "description": "Cloud infrastructure and security solutions for enterprise"
+    },
+    {
+      "id": "partner-003",
+      "name": "DataFlow Analytics",
+      "logo": "images/partners/dataflow-logo.svg",
+      "description": "Advanced data analytics and insights platform"
+    },
+    {
+      "id": "partner-004",
+      "name": "TechCorp Global",
+      "logo": "images/partners/techcorp-logo.svg",
+      "description": "Global technology consulting and systems integration"
+    },
+    {
+      "id": "partner-005",
+      "name": "InnovateSoft",
+      "logo": "images/partners/innovatesoft-logo.svg",
+      "description": "Innovation consulting and custom software development"
+    }
+  ]
+}

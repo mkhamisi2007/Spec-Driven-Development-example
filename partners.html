@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meet our partners and strategic collaborators">
+    <title>Software Store - Partners</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navigation">
+        <span class="hamburger"></span>
+    </button>
+
+    <nav id="navigation" class="navbar">
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">About</a>
+            <a href="products.html" class="nav-link">Products</a>
+            <a href="partners.html" class="nav-link">Partners</a>
+            <a href="contact.html" class="nav-link" data-i18n="nav.contact">Contact Us</a>
+        </div>
+        <div class="nav-language">
+            <button id="languageSwitcher" class="lang-btn" aria-label="Toggle language">
+                <span id="langDisplay">EN</span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <header class="page-header">
+            <h1 data-i18n="partners.title">Our Partners</h1>
+            <p class="tagline" data-i18n="partners.subtitle">Strategic collaborators powering global innovation</p>
+        </header>
+
+        <section id="partners-section" class="content-section">
+            <p data-i18n="partners.description">
+                We work with industry-leading organizations to deliver comprehensive solutions
+                and exceptional value to our customers.
+            </p>
+
+            <div id="partners-list" class="partners-list">
+                <!-- Partners will be loaded here -->
+            </div>
+
+            <div id="no-partners" class="empty-state" style="display: none;">
+                <h3 data-i18n="partners.noPartners">No partners available</h3>
+                <p data-i18n="partners.noPartnersText">Check back soon for partnership information.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p data-i18n="common.copyright">&copy; 2026 Software Store. All rights reserved.</p>
+    </footer>
+
+    <!-- Language & Translation Scripts -->
+    <script src="js/i18n.js"></script>
+    <script src="js/theme.js"></script>
+    <script>
+        // Initialize language preferences and theme on page load
+        document.addEventListener('DOMContentLoaded', async () => {
+            await theme.initLanguagePreference();
+            theme.setupLanguageSwitcher();
+        });
+    </script>
+
+    <script src="js/data-loader.js"></script>
+    <script src="js/partners.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

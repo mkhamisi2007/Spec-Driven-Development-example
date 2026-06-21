@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software company showcasing products and partnerships">
+    <title>Software Store - About</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navigation">
+        <span class="hamburger"></span>
+    </button>
+
+    <nav id="navigation" class="navbar">
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">About</a>
+            <a href="products.html" class="nav-link">Products</a>
+            <a href="partners.html" class="nav-link">Partners</a>
+            <a href="contact.html" class="nav-link" data-i18n="nav.contact">Contact Us</a>
+        </div>
+        <div class="nav-language">
+            <button id="languageSwitcher" class="lang-btn" aria-label="Toggle language">
+                <span id="langDisplay">EN</span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <header class="page-header">
+            <h1 data-i18n="home.title">Software Store</h1>
+            <p class="tagline" data-i18n="common.tagline">Enterprise solutions for the modern business</p>
+        </header>
+
+        <section id="about" class="content-section">
+            <h2 data-i18n="home.aboutTitle">About Us</h2>
+            <p data-i18n="home.aboutText1">
+                Software Store is a leading provider of enterprise software solutions designed to help businesses
+                streamline operations, enhance security, and gain actionable insights from their data.
+            </p>
+            <p data-i18n="home.aboutText2">
+                Founded in 2015, we have been committed to delivering innovative, reliable, and user-friendly
+                software products to organizations worldwide.
+            </p>
+        </section>
+
+        <section id="mission" class="content-section">
+            <h2 data-i18n="home.missionTitle">Our Mission</h2>
+            <p data-i18n="home.missionText">
+                We empower organizations to achieve digital transformation through intelligent, accessible,
+                and secure software solutions. Our mission is to make enterprise software approachable for
+                businesses of all sizes.
+            </p>
+        </section>
+
+        <section id="history" class="content-section">
+            <h2 data-i18n="home.historyTitle">Our History</h2>
+            <p data-i18n="home.historyText1">
+                Software Store began with a simple vision: create software that solves real business problems
+                without unnecessary complexity. Over the years, we have grown from a small startup to a trusted
+                partner for hundreds of enterprises globally.
+            </p>
+            <p data-i18n="home.historyText2">
+                Our commitment to innovation, customer success, and continuous improvement has made us a leader
+                in the software solutions industry.
+            </p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p data-i18n="common.copyright">&copy; 2026 Software Store. All rights reserved.</p>
+    </footer>
+
+    <!-- Language & Translation Scripts -->
+    <script src="js/i18n.js"></script>
+    <script src="js/theme.js"></script>
+    <script>
+        // Initialize language preferences and theme on page load
+        document.addEventListener('DOMContentLoaded', async () => {
+            await theme.initLanguagePreference();
+            theme.setupLanguageSwitcher();
+        });
+    </script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

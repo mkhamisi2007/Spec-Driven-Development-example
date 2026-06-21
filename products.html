@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse our software products and solutions">
+    <title>Software Store - Products</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navigation">
+        <span class="hamburger"></span>
+    </button>
+
+    <nav id="navigation" class="navbar">
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">About</a>
+            <a href="products.html" class="nav-link">Products</a>
+            <a href="partners.html" class="nav-link">Partners</a>
+            <a href="contact.html" class="nav-link" data-i18n="nav.contact">Contact Us</a>
+        </div>
+        <div class="nav-language">
+            <button id="languageSwitcher" class="lang-btn" aria-label="Toggle language">
+                <span id="langDisplay">EN</span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <header class="page-header">
+            <h1 data-i18n="products.title">Our Products</h1>
+            <p class="tagline" data-i18n="products.subtitle">Enterprise solutions to drive your business forward</p>
+        </header>
+
+        <section id="products-section" class="content-section">
+            <div class="search-box">
+                <input type="text" id="search-input" data-i18n-placeholder="products.searchPlaceholder" placeholder="Search products by name..." aria-label="Search products">
+            </div>
+
+            <div id="products-list" class="products-list">
+                <!-- Products will be loaded here -->
+            </div>
+
+            <div id="no-results" class="empty-state" style="display: none;">
+                <h3 data-i18n="products.noResults">No products found</h3>
+                <p data-i18n="products.noResultsText">Try searching with different keywords.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p data-i18n="common.copyright">&copy; 2026 Software Store. All rights reserved.</p>
+    </footer>
+
+    <!-- Language & Translation Scripts -->
+    <script src="js/i18n.js"></script>
+    <script src="js/theme.js"></script>
+    <script>
+        // Initialize language preferences and theme on page load
+        document.addEventListener('DOMContentLoaded', async () => {
+            await theme.initLanguagePreference();
+            theme.setupLanguageSwitcher();
+        });
+    </script>
+
+    <script src="js/data-loader.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

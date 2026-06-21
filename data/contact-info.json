@@ -1,0 +1,16 @@
+{
+  "address": {
+    "street": "123 Main Street",
+    "city": "Montreal",
+    "state": "QC",
+    "postalCode": "H1A 1A1",
+    "country": "Canada"
+  },
+  "email": "info@company.com",
+  "phone": "+1 (555) 123-4567",
+  "businessHours": {
+    "weekdays": "Monday-Friday, 9:00 AM - 5:00 PM EST",
+    "weekends": "Closed",
+    "timezone": "Eastern Time (ET)"
+  }
+}

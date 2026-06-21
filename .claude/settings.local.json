@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"c:\\\\00_Main\\\\2026\\\\Formations\\\\Spec-driven Development\\\\spec-kit\\\\my-example\\\\my-software-store\\\\specs\\\\001-international-contact-security\\\\checklists\")"
+    ],
+    "additionalDirectories": [
+      "c:\\00_Main\\2026\\Formations\\Spec-driven Development\\spec-kit\\my-example\\my-software-store\\specs\\001-international-contact-security"
+    ]
+  }
+}
