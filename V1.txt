@@ -1,0 +1,24 @@
+version 1
+---------------------------------------------------
+/speckit-constitution Create principles focused on simplicity, static-site best practices (no backend, no database), clean and responsive UI, accessibility, fast page load, and maintainable HTML/CSS/JS structure.
+
+/speckit-specify Build a simple static website for a software company that sells software products. The site has three pages:
+1. About the company - a page describing the company, its mission, and history.
+2. Product list - a page showing all software products with a search box that filters products by name in real time.
+3. Partners list - a page showing the company's business partners with their logos and names.
+The site has a shared navigation menu across all pages to move between About, Products, and Partners. There is no login, no shopping cart, and no backend - this is purely informational. Product data and partner data can be hardcoded or loaded from a local JSON file. The design should be clean, modern, and mobile-responsive.
+
+/speckit-clarify
+
+/speckit-plan Use plain HTML, CSS, and vanilla JavaScript - no frontend framework, no build tools, no backend server. Product and partner data should be stored in local JSON files and loaded via fetch(). The search on the products page should filter the product list instantly as the user types, with no page reload. The site must be deployable as static files (e.g., to GitHub Pages or Netlify) with no server-side code required.
+
+/speckit-tasks
+
+/speckit-analyze
+
+/speckit-implement
+
+
+
+
+

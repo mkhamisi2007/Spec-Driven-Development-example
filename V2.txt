@@ -1,0 +1,26 @@
+version 2
+---------------------------------------------------
+/speckit-specify Add the following capabilities to the existing static software-sales website:
+1. A new "Contact Us" page with a contact form (name, email, subject, message) and the company's contact information (address, email, phone). The form should validate input on the client side (required fields, valid email format) before allowing submission. Since this is a static site with no backend, the form should submit via a third-party form service (e.g., Formspree) - do not assume a custom backend exists.
+2. Bilingual support: the entire site (About, Products, Partners, Contact, navigation, and all UI text) must be available in both English and French. Both languages are left-to-right, so no layout mirroring is needed. Users can switch language with a visible language switcher in the navigation bar. The selected language should persist across page navigation and page reloads.
+3. Security hardening for the static site: enforce HTTPS only, add a Content-Security-Policy header, add security headers such as X-Content-Type-Options and Referrer-Policy, sanitize and validate all user input on the contact form to prevent injection, and avoid exposing any sensitive information (API keys, emails in plain text where avoidable) in client-side source code.
+
+/speckit-clarify
+
+/speckit.plan Implement bilingual support (English/French) using a simple JSON-based i18n approach (e.g., separate en.json and fr.json translation files loaded via vanilla JavaScript) - no heavy i18n framework needed for a static site. Use the lang HTML attribute to set the page language. Store the user's language choice in localStorage so it persists across pages and reloads.
+For the contact form, integrate with Formspree for form submission without a custom server. Add client-side validation using vanilla JavaScript before submission.
+For security, since this will be hosted as a static site (e.g., GitHub Pages, Netlify, or Vercel), configure security headers via the hosting platform's configuration file (e.g., netlify.toml or vercel.json headers section) including Content-Security-Policy, Strict-Transport-Security, X-Content-Type-Options, and Referrer-Policy. Ensure all external resources (fonts, CDNs, Formspree endpoint) are explicitly whitelisted in the CSP.
+
+/speckit-tasks
+
+/speckit-analyze
+
+/speckit-implement
+
+# github
+/speckit-taskstoissues
+
+gh issue edit <NUMBER> --add-assignee <username>
+
+Implement issue #3 from GitHub
+

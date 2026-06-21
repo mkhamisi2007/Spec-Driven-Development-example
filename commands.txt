@@ -1,0 +1,5 @@
+specify init my-software-store --integration claude
+cd my-software-store
+claude --permission-mode bypassPermissions
+
+python -m http.server 8000
