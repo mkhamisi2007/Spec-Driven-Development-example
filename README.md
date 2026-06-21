@@ -37,10 +37,10 @@ This project showcases:
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    Static Website                        │
-│  (HTML/CSS/JavaScript - No Backend Required)             │
+│                    Static Website                       │
+│  (HTML/CSS/JavaScript - No Backend Required)            │
 ├─────────────────────────────────────────────────────────┤
-│                                                           │
+│                                                         │
 │  ┌──────────────┐    ┌──────────────┐                   │
 │  │   Frontend   │    │  Data Layer  │                   │
 │  ├──────────────┤    ├──────────────┤                   │
@@ -49,8 +49,8 @@ This project showcases:
 │  │ JavaScript   │    │ - Partners   │                   │
 │  │ Modules      │    │ - Contact    │                   │
 │  └──────────────┘    │ - i18n Data  │                   │
-│                      └──────────────┘                    │
-│                                                           │
+│                      └──────────────┘                   │
+│                                                         │
 │  ┌──────────────┐    ┌──────────────┐                   │
 │  │  i18n Engine │    │ Form Handler │                   │
 │  ├──────────────┤    ├──────────────┤                   │
@@ -58,8 +58,8 @@ This project showcases:
 │  │ Apply to DOM │    │ Sanitization │                   │
 │  │ Persist Lang │    │ Formspree    │                   │
 │  └──────────────┘    │ Integration  │                   │
-│                      └──────────────┘                    │
-│                                                           │
+│                      └──────────────┘                   │
+│                                                         │
 └─────────────────────────────────────────────────────────┘
                           │
                           │ (HTTPS POST)
@@ -83,32 +83,32 @@ This project showcases:
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    JavaScript Modules                    │
+│                    JavaScript Modules                   │
 ├─────────────────────────────────────────────────────────┤
-│                                                           │
+│                                                         │
 │  i18n.js (Translation Engine)                           │
 │  ├── loadTranslations(lang)                             │
 │  ├── getTranslation(key)                                │
 │  ├── setLanguage(lang)                                  │
 │  ├── applyTranslations()                                │
 │  └── getCurrentLanguage()                               │
-│                                                           │
+│                                                         │
 │  form-validation.js (Form Module)                       │
 │  ├── validateEmail(email)                               │
 │  ├── validateRequired(value)                            │
 │  ├── sanitizeInput(text)                                │
 │  ├── validateForm(formData)                             │
 │  └── submitForm(data, endpoint)                         │
-│                                                           │
+│                                                         │
 │  theme.js (Language Persistence)                        │
 │  ├── initLanguagePreference()                           │
 │  ├── setLanguagePersistent(lang)                        │
 │  └── setupLanguageSwitcher()                            │
-│                                                           │
+│                                                         │
 │  contact.js (Page Logic)                                │
 │  ├── loadContactInfo()                                  │
 │  └── handleFormSubmit(event)                            │
-│                                                           │
+│                                                         │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -175,6 +175,8 @@ Spec-Driven-Development-example/
         └── checklists/
             └── requirements.md        # Quality checklist
 ```
+
+<img width="1040" height="674" alt="image" src="https://github.com/user-attachments/assets/14d34ea4-9551-4578-a455-68c84d6dfab6" />
 
 ---
 
