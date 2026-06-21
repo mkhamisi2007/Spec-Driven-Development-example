@@ -738,6 +738,7 @@ Created as a demonstration of spec-driven development methodology
 
 ## 🔗 Links
 
+- **GitHub Repository:** https://github.com/github/spec-kit
 - **GitHub Repository:** https://github.com/mkhamisi2007/Spec-Driven-Development-example
 - **Formspree Service:** https://formspree.io
 - **Netlify Hosting:** https://netlify.com
